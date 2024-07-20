@@ -28,6 +28,7 @@ if (File.Exists(configPath))
 	}
 	if (!error)
 	{
+
         Console.WriteLine("Data paths:");
         Console.WriteLine(config.AdminsPath);
 		Logger($"Admin path load: {config.AdminsPath}");
